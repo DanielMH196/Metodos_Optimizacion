@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Optimización Lineal</title>
+</head>
+<body>
+    <h1>Maximizar: z = a * x + b * y</h1>
+
+    <form method="POST">
+        <label>a (coeficiente de x):</label>
+        <input type="number" name="a" step="any" required><br>
+
+        <label>b (coeficiente de y):</label>
+        <input type="number" name="b" step="any" required><br>
+
+        <label>c (para x + y ≤ c):</label>
+        <input type="number" name="c" step="any" required><br>
+
+        <label>x máximo (x ≤ ?):</label>
+        <input type="number" name="x_max" step="any" required><br>
+
+        <label>y máximo (y ≤ ?):</label>
+        <input type="number" name="y_max" step="any" required><br>
+
+        <button type="submit">Calcular</button>
+    </form>
+
+    {% if z_max %}
+        <h2>Resultado</h2>
+        <p>Máximo valor de z: <strong>{{ z_max }}</strong></p>
+        <p>En el punto: <strong>{{ punto }}</strong></p>
+    {% endif %}
+</body>
+</html>
