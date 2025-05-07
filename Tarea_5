@@ -1,0 +1,72 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\usetheme{default}
+\setbeamertemplate{navigation symbols}{}
+
+\title{Uso de Programación Lineal en Redes de Salud}
+\author{ Torres Cruz Fred \\ Mamani Huatta Cliver Daniel \\ Universidad Nacional del Altiplano - FINESI}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{1. ¿Cuál era el problema?}
+\begin{itemize}
+  \item En Brasil, muchas personas con cáncer tenían que viajar lejos para recibir tratamiento.
+  \item Eso generaba cansancio, gastos y molestias para los pacientes.
+  \item Los investigadores querían encontrar una forma de reducir esas distancias.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{2. ¿Qué hicieron los científicos?}
+\begin{itemize}
+  \item Aplicaron una técnica matemática llamada \textbf{programación lineal}.
+  \item Esta herramienta sirve para encontrar la mejor solución bajo ciertas condiciones.
+  \item La aplicaron en hospitales de la red UNACON-RS en el estado de Río Grande do Sul.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{3. ¿Cómo aplicaron la programación lineal?}
+\begin{itemize}
+  \item Definieron la función objetivo: minimizar la distancia total recorrida por los pacientes.
+  \item Establecieron restricciones como:
+  \begin{itemize}
+    \item Cada paciente debe ir a un solo hospital.
+    \item Cada hospital tiene capacidad limitada.
+    \item Solo se usan hospitales disponibles.
+  \end{itemize}
+  \item El modelo fue resuelto con un programa computacional para obtener la mejor asignación.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{4. ¿Qué resultados obtuvieron?}
+\begin{itemize}
+  \item Si reorganizaban a los pacientes, se podía ahorrar más de \textbf{293,000 km} de viajes al mes.
+  \item Cada paciente viajaría en promedio \textbf{13 km menos}.
+  \item Esto significaba más comodidad y ahorro de tiempo y dinero.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{5. ¿Por qué es importante?}
+\begin{itemize}
+  \item Menos viajes implican mejor calidad de vida para los pacientes.
+  \item La programación lineal ayudó a tomar decisiones justas y eficientes.
+  \item Mostró cómo las matemáticas pueden mejorar los sistemas de salud.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{6. Conclusión}
+\begin{itemize}
+  \item El estudio demostró que con modelos matemáticos se pueden resolver problemas reales.
+  \item Es posible mejorar servicios públicos con lógica y organización.
+  \item La programación lineal fue clave para mejorar el acceso al tratamiento croncológico en Brasil.
+\end{itemize}
+\end{frame}
+
+\end{document}
